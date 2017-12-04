@@ -1,0 +1,342 @@
+/* thanks, Eric :-)
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, #nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, #nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+em {
+	font-style: italic;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: 1e68ff;
+}
+a:hover, a:active, a:focus {
+	color: #000;
+}
+/* general styling */
+
+#container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+#work #left_col {
+	width: 48%;
+	float: left;
+}
+
+#work #right_col {
+    width: 48%;
+    height: auto;
+    float: right;
+}
+
+
+
+#header {
+	font-family: Times, Georgia, "Times New Roman", Times, serif;
+	color: #000;
+	margin: 30px 0;
+	font-size: 3em;
+	text-align: center;
+	position: relative;
+}
+
+
+#header img {
+    width: 12%;
+    height: auto;
+    margin: 0 5px 0 5px;
+    position: relative;
+}
+
+#navbar {
+	width: 100%;
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 10px 0;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+/* rules for #navigation bar */
+
+#navbar li {
+	width: 33.3333%;
+	display: inline;
+	float:left;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	display: block;
+	padding: .5em;
+	background: #000;
+	color: #fff;	
+}
+#navbar ul li a:hover, #navbar ul li a:active, #navbar ul li a:focus {
+	background: #fff;
+	color: #000;	
+}
+
+/*.floatleft {
+	float: left;
+	top: 10px;
+	width: 20%;
+	height: auto;
+	padding-left: 5em;
+	margin-bottom: 40px;
+	position: relative;
+}*/
+
+#left_col {
+	width: 48%;
+	float: left;
+	margin: 0 2% 0 0;
+}
+
+#left_col img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+    opacity: .5;
+}
+
+#right_col img {
+    width: 60%;
+    overflow: hidden;
+    float: right;
+}
+
+#right_col h2 {
+	background-color: #fff;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+    margin-top: 60px;
+	text-align: left;
+}
+	
+#right_col p {
+	font-size: 15px;
+	line-height: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: left;
+    width: 100%;
+}
+
+#footer {
+	padding: .5em 0;
+	border: 1px solid #000;
+    background-color: #000;
+	position: relative;
+	clear: both;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#footer p {
+	color: #fff;
+    padding: .2em;
+    font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 15px;
+    margin-left: 10px;
+	text-align: left;
+}
+
+#social-icons img {
+    float: right;
+    width: 3%;
+    height: auto;
+    margin: 5px;
+    margin-top: -23px;
+}
+
+#social-icons ul li {
+    display: inline;
+}
+
+#right_col {
+    width: 100%;
+    height: auto;
+}
+
+#right_col img {
+    width: 100%;
+	height: auto;
+    float: right;
+    opacity: .5;
+}
+
+#content {
+	overflow: hidden;
+	padding: 0 0 3em 0;
+	border-bottom: 2px solid #333;
+}
+#content h1 {
+    margin-left: 208px;
+    font-size: 22px;
+    font-family: verdana, Geneva, sans-serif;
+    margin-bottom: 5px;
+}
+
+#content h3 {
+    margin-left: 208px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-family: verdana, Geneva, sans-serif;
+    margin-top: 10px;
+}
+
+#content h4 {
+    margin-left: 208px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-family: Georgia, Times New Roman, Times, serif;
+    margin-top: 10px;
+}
+
+#content img {
+    width: 60%;
+    height: auto;
+    float: left;
+    clear: both;
+    margin-left: 10em;
+    margin-bottom: 10px;
+}	
+	
+#content p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 18px;
+    width: 50%;
+    margin-left: 14em;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+/* about page styling */
+#profile #left_col img {
+    width: 65%;
+    opacity: 1;
+}
+
+
+#wrapper h1 {
+    font-family: verdana, Geneva, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#form {
+    width: 50px;
+    height: auto;
+    line-height: 30px;
+    font-family: vedana, Geneva, sans-serif;
+    font-size: 15px;
+}
+
+.btn { 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100px;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+p.error {
+    color: red;
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+
+p.sent {
+    color: green;
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+
+iframe {   
+    margin-bottom: 20px;
+    margin-left: 8em;
+}
+
+.floatleft {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+.floatleft a img {
+    width: 100px;
+    height: auto;
+    clear: both;
+	opacity: .5;
+}
+.floatleft a:hover img, .floatleft a:active img, .floatleft a:focus img {
+	opacity: 1;   
+}
+
+#left_col a:hover img, #left_col a:active img, #left_col a:focus img {
+    opacity: 1;
+}
+
+#right_col a:hover img, #right_col a:active img, #right_col a:focus img {
+    opacity: 1;
+}
+
+
+
